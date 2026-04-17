@@ -3,3 +3,4 @@ __pycache__/
 .claude/
 check_result/
 part_number/
+!ecu-report-check-plugin/part_number/

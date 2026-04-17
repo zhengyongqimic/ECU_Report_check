@@ -1,0 +1,9 @@
+{
+  "name": "ecu-report-check",
+  "version": "1.0.0",
+  "description": "ECU报告DID件号自动校验工具 — 校验ECU软件发布报告中的件号是否与标准值一致，支持自动维护件号对照表",
+  "author": {
+    "name": "ECU Report Team"
+  },
+  "keywords": ["ecu", "did", "part-number", "automotive", "quality-check"]
+}
