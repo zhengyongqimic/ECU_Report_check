@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+
+html {
+    height:100%; /* fix height to 100% for IE */
+    width: 100%;
+    max-height:100%; /* fix height for other browsers */
+    padding:0; /*remove padding */
+    margin:0; /* remove margins */
+    border:0; /* remove borders */
+}
+
+body {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Open Sans';
+    margin-left: 0em;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 55px;
+}
+
+.ptitle h1 {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    margin-bottom: 32px;
+    line-height: normal;
+    color: #2F6DB5;
+    font-size: 1.8em;
+}
+
+.stitle {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: normal;
+    color: #2F6DB5;
+    font-size: 1.3em;
+}
+
+.note p {
+    width: 90%;
+    background-color: #F5F7F9;
+    border-left: 6px solid #783CBD;
+    padding: 8px;
+}
+
+.note h2 {
+    text-align: center;
+    width: 100%;
+    background-color: #F5F7F9;
+    border-left: 6px solid #783CBD;
+    padding: 8px;
+}
+
+.summary {
+    font-family: 'Open Sans';
+    border-collapse: collapse;
+    width: 100%
+}
+
+.summary td, .summary th {
+    border: 1px solid #ddd;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.summary tr:nth-child(even) {background-color: #f2f2f2;}
+
+.summary tr:hover {background-color: #ddd;}
+
+.summary th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2F6DB5;
+    color: white
+}
+
+
+
+
+
+
+.headcontent {
+    font-size: 90%;
+    max-height: 250px;
+}
+
+.toc {
+    display: inline-block;
+}
+
+
+.toc {
+    margin:0;
+    padding:0;
+    background:transparent;
+    height:100%;
+    margin-left:100px;
+    padding-left:100px;
+    padding-top:10px;
+}
+
+.toc ul { list-style-type:none }
+
+.toc ol li a { padding-left:20px;  color: #0000EE;; text-decoration:none;}
+.toc ol li a:hover { color:#BABABA;  }
+a:hover { color:#BABABA;  }
+.diagrams { display: inline-block;}
+
+.rgtable td { width:70px; text-align:center;}
+
+
+td {
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
+.pie-container {
+box-sizing: border-box;
+width: 850px;
+height: 450px;
+padding: 20px 15px 15px 15px;
+margin: 15px auto 30px auto;
+border: 1px solid #ddd;
+background: #fff;
+background: linear-gradient(#f6f6f6 0, #fff 50px);
+background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+-o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+-ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pie-placeholder {
+width: 100%;
+height: 100%;
+font-size: 14px;
+line-height: 1.2em;
+}
+
+.padded { padding: 0 10px; }
+
+.paddedleft { padding: 0 10px; text-align: left; }
+.paddedright { padding: 0 10px; text-align: right; }
+
+.lightheader { background-color: lightgreen; }
+.boldheader  { background-color: lime; }
+
+
+.metricstable,table,td,th
+{
+border-style:    none;
+border-color:    white;
+border-collapse: collapse;
+border-width:    1px;
+padding: 2px;
+}
+
+</style>
+<title>Helix QAC Standards Compliance Report</title>
+</head>
+   <body>
+    <img src="file://C:\Perforce\Helix-QAC-2021.3\report_plugins\ReportHelpers\..\images\Helix-QAC.png" alt="Helix QAC logo" style="float:left;width:48px;height:48px;">
+    <img src="file://C:\Perforce\Helix-QAC-2021.3\report_plugins\ReportHelpers\..\images\Perforce.png" alt="Perforce logo" style="float:right;width:150px;height:48px;">
+    <div id="head">
+     <div class="ptitle"><h1>Helix QAC Standards Compliance Report (Draft)</h1></div>
+     <div class="note"><p>This report was generated using Helix QAC and is the Intellectual Property of Programming Research Limited.</p></div>
+    </div>
+
+    <div class="summary">
+     <div class="stitle"><h2>Project Details</h2></div>
+     <table>
+      <tr><td title="Absolute location of the Helix QAC project. The configuration used is shown in brackets.">Project and config</td><td><a href="D:/bbqbns/Project/MX11_BT">MX11_BT</a> [Initial]</td></tr>
+      <tr><td title="This is when the report data was produced, which may be earlier than when the report was created.">Report by</td><td>Administrator on 06 Jan 2025 at 17:38:31 </td></tr>
+      <tr><td title="The name of the applied ruleset - taken from the RCF.">Ruleset applied</td><td>m3cm 3.1.0</td></tr>
+      <tr><td title="The latest time when any file in the project was last analysed.">Last analysis date</td><td>06 Jan 2025 at 17:38:11 </td></tr>
+      <tr><td title="The Helix QAC version number.">Tool/Version</td><td>Helix QAC 2021.3</td></tr>
+      <tr><td title="Full details of the Helix QAC build.">Revision/Build ID</td><td>3.1.0-12479 Nov 20 2021 for Windows 64-bit</td></tr>
+      <tr><td title="Components that produced diagnostics.">Analysis components</td><td>qac-10.1.0</td></tr>
+     </table>
+    </div>
+
+    <div class="summary">
+     <div class="stitle"><h2>Compliance Summary</h2></div>
+     <table>
+      <tr><td title="The number of source and header files in the project. If RCMA is in the toolchain then 1 will be added to account for CMA messages.">Number of files in project</td><td style="text-align:right;">252</td></tr>
+      <tr><td>Number of files with violations</td><td style="text-align:right;">1</td></tr>
+      <tr><td>Lines of Code (LOC)</td><td style="text-align:right;">160038</td></tr>
+      <tr><td>Number of rules disabled</td><td style="text-align:right;">19</td></tr>
+      <tr><td title="This may differ from the totals in qagui">Total number of rule violations</td><td style="text-align:right;">1</td></tr>
+      <tr><td title="This may differ from the totals in qagui">Total number of rule deviations</td><td style="text-align:right;">0</td></tr>
+      <tr><td title="Must be 0 for compliance">Total number of parser errors</td><td style="text-align:right;">0</td></tr>
+     </table>
+    </div>
+
+    <div class="summary">
+     <div class="stitle"><h2>Rule Summary</h2></div>
+     <table>
+      <tr><th>Rule</th><th>Enabled</th><th>Violations</th><th>Deviations</th><th>Compliance Level</th></tr>
+      <tr><td>CMN-0.1</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>CMN-0.2</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>CMN-0.3</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>CMN-0.4</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>CMN-0.5</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>CMN-9.1</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>CMN-9.2</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Dir-1.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-1.1-C90</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Dir-1.1-C99</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Dir-1.1-C11</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Dir-2.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Not Enforced</td></tr>      <tr><td>Dir-3.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Not Enforced</td></tr>      <tr><td>Dir-4.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Dir-4.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-4.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Dir-4.4</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Dir-4.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-4.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-4.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Dir-4.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-4.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-4.10</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Dir-4.11</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Not Enforced</td></tr>      <tr><td>Dir-4.12</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Dir-4.13</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Dir-4.14</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-1.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-1.1-C90</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-1.1-C99</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-1.1-C11</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-1.2</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-1.2-C90</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-1.2-C99</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-1.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-1.4-C11</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-2.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-2.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-2.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-2.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-2.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-2.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-2.7</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-3.1</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-3.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-4.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-4.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-5.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-5.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-5.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-5.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-5.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-5.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-5.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-5.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-5.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-6.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-6.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-7.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-7.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-7.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-7.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-8.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.10</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.11</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.12</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-8.13</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-8.14</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-9.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-9.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-9.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-9.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-9.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-10.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-10.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-10.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-10.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-10.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-10.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-10.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-10.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-11.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-11.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-11.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-11.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-11.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-11.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-11.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-11.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-11.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-12.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-12.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-12.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-12.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-12.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-13.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-13.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-13.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-13.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-13.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-13.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-14.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-14.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-14.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-14.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-15.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-15.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-15.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-15.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-15.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">1</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-15.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-15.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-16.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-16.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-16.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-16.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-16.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-16.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-16.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-17.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-17.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-17.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-17.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-17.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-17.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-17.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-17.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-18.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-18.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-18.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-18.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-18.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-18.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-18.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-18.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-19.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-19.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.4-C99</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.4-C11</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-20.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.10</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.11</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.12</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-20.13</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-20.14</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-21.1-C90</td><td style="text-align:center;">Disabled</td><td style="text-align:right;">-</td><td style="text-align:right;">-</td><td style="text-align:center;"></td></tr>      <tr><td>Rule-21.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-21.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.8</td><td style="text-align:center;">Partial</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.10</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.11</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.12</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-21.13</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.14</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.15</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Violations</td></tr>      <tr><td>Rule-21.16</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.17</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.18</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.19</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.20</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-21.21</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.1</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.2</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.3</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.4</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.5</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.6</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.7</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.8</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.9</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>      <tr><td>Rule-22.10</td><td style="text-align:center;">Enabled</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:center;">Compliant</td></tr>     </table>
+    </div>
+
+    <h3>No deviations found !</h3>
+     </table>
+    </div>
+
+    <div class="summary">
+     <div class="stitle"><h2>Violation Summary</h2></div>
+     <table>
+      <tr><th>File</th><th>Rule(s)</th></tr>
+      
+      <tr><td><a href="D:/bbqbns/Project/MX11_BT/MX11FL/FL_Boot_Project/OTA/SecurityManager/SecM.c">SecM.c</a></td><td>Rule-15.5</td></tr>
+     </table>
+    </div>
+
+   </body>
